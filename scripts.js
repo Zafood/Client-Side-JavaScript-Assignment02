@@ -66,6 +66,7 @@ document.addEventListener("DOMContentLoaded", function () {
       selectList.appendChild(optionElement);
     });
   }
+  addList(); // Populate the select list on page load
 
   // Function to change image when select list is changed
   function changeImage() {
@@ -79,5 +80,5 @@ document.addEventListener("DOMContentLoaded", function () {
   randomColorButton.addEventListener("click", changeRandomColor);
   customColorButton.addEventListener("click", changeCustomColor);
   selectList.addEventListener("change", changeImage);
-  addList(); // Populate the select list on page load
+ 
 });
