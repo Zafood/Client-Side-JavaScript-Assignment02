@@ -9,11 +9,11 @@ document.addEventListener("DOMContentLoaded", function () {
 
   // Image array
   const imageArray = [
-    "img/img1.jpg",
-    "img/img2.jpg",
-    "img/img3.jpg",
-    "img/img4.jpg",
-    "img/img5.jpg",
+    "img1.jpg",
+    "img2.jpg",
+    "img3.jpg",
+    "img4.jpg",
+    "img5.jpg",
   ];
 
   // Function to change bg color from user input and add student id
